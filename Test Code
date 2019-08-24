@@ -1,6 +1,6 @@
 var hookcord = require('hookcord');
 var Hook = new hookcord.Hook()
-  .login('ID', 'SECRET')
+  .login('614766285418528780', '9qjI_9sbnJ7xjXZl2CmwiFl1pHpbPiY5unkwsvHFUQEwyGrB65rqnCq59jxXs4hnOJDA')
   .setPayload({
     'content': 'This is a certified BRUH alert.'
   })
