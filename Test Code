@@ -1,0 +1,10 @@
+const hookcord = require('hookcord');
+const Hook = new hookcord.Hook()
+Hook.login(id, secret);
+//ID is your Discord ID, Secret is your number you get from the developer page IIRC
+Hook.setPayload({
+  "content": "Yar har shibbledee, do what you want for a test is me!"
+})
+.fire()
+.then(function(response) {})
+.catch(function(e) {})
