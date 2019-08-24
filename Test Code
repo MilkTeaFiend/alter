@@ -5,6 +5,8 @@ Hook.login(id, secret);
 Hook.setPayload({
   "content": "Yar har shibbledee, do what you want for a test is me!"
 })
-.fire()
-.then(function(response) {})
-.catch(function(e) {})
+Hook.fire()
+  .then(response_object => {  })
+  .catch(error => {
+    throw error;
+  })
