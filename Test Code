@@ -1,5 +1,5 @@
 const hookcord = require('hookcord');
-const Hook = new hookcord.Hook()
+const Hook = new hookcord.Hook(https://discordapp.com/api/webhooks/614766355928973313/9qjI_9sbnJ7xjXZl2CmwiFl1pHpbPiY5unkwsvHFUQEwyGrB65rqnCq59jxXs4hnOJDA)
 Hook.login(id, secret);
 //ID is your Discord ID, Secret is your number you get from the developer page IIRC
 Hook.setPayload({
